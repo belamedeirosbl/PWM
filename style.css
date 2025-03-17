@@ -1,10 +1,14 @@
 body {
-  background-color: rgb(234, 228, 160);
+  /*background-color: #eae4a0;*/
   font-weight: normal;
   font-family: Arial, sans-serif;
   color: rgb(99, 65, 11);
   text-align: center;
   font-size: 25px;
+  background-image: url("midias/imagem_fundo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header,
@@ -17,7 +21,7 @@ h1,
 h2,
 h3,
 h4 {
-  color: rgb(99, 65, 11);
+  color: #63410b;
 }
 a {
   color: rgb(99, 65, 11);
