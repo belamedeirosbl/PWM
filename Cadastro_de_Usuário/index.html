@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <form action="https://www.w3schools.com/action_page.php">
-        <fieldset>
-            <legend>Cadastro de usuário</legend>
-            Nome do usuário: <input type="text" name="usuario" placeholder="digite seu nome"><br>
-            Email: <input type="email" name = "email" placeholder="digite seu email"> <br>
-            Senha: <input type = "password" name="senha" placeholder="digite sua senha"><br>
-            Data de nascimento: <input type = "date"name = "data"><br>
-            Sexo: <select name = "Sexo">
-                <option value = "mulher">mulher</option>
-                <option value = "homem">homem</option>s
-            </select><br>
-            Estado: <input type="text" name = "estado" placeholder="digite o seu estado"><br>
-            <input type = "submit" value="Login">
-        </fieldset>
-        
+      <fieldset>
+        <legend>Cadastro de usuário</legend>
+        Nome do usuário:
+        <input type="text" name="usuario" placeholder="digite seu nome" /><br />
+        Email:
+        <input type="email" name="email" placeholder="digite seu email" />
+        <br />
+        Senha:
+        <input
+          type="password"
+          name="senha"
+          placeholder="digite sua senha"
+        /><br />
+        Data de nascimento: <input type="date" name="data" /><br />
+        Sexo:
+        <select name="Sexo">
+          <option value="mulher">mulher</option>
+          <option value="homem">homem</option></select
+        ><br />
+        Estado:
+        <input
+          type="text"
+          name="estado"
+          placeholder="digite o seu estado"
+        /><br />
+        <br />
+        <input type="submit" value="Login" class="btn" />
+      </fieldset>
     </form>
-    
-</body>
+  </body>
 </html>
